@@ -61,7 +61,7 @@ sudo mkinitcpio -P
 
 ### 5 Known issues
 
-None as of *now*, but blame HP if any exists ;)
+- Make sure to keep Nvidia Optimus enabled on BIOS otherwise brightness control won't be available.
 
 (also yes... touchpad and audio work... bluetooth also does... can you imagine!?)
 
