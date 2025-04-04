@@ -51,7 +51,7 @@ HOOKS=(base udev autodetect modconf block filesystems keyboard acpi_override fsc
 
 ---
 
-### 4️ Rebuild Initramfs
+### 4 Rebuild Initramfs
 
 ```bash
 sudo mkinitcpio -P
