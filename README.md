@@ -23,6 +23,14 @@ If you want to patch your own ACPI tables, follow the Arch Wiki guide:
 
 To dump your ACPI tables, use **RwEverything** inside Windows to grab the currently working ones.
 
+> [!WARNING]
+> Since RwEverything seems to not be working on some systems you can use  [**SSDTTime**](https://github.com/corpnewt/SSDTTime)
+
+1. Download **SSDTTime**
+2. Select "P"
+3. In the folder "Results" you should find "SSDT.aml", that will be you SSDT table that you need to use.
+
+#### You can use **iasl** to disassemble / assemble the aml to dsl and modify it.
 ---
 
 ## 📥 Installation
